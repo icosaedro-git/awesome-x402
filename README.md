@@ -934,3 +934,28 @@ The missing real-world layer for x402. AI agents use AgentPay to find, book and 
 |  | Product search — online + local stores |
 |  | All chain info — ETH, Base, Polygon, ARB, OP, AVAX, BNB, SOL |
 
+
+
+### [Autonomagic](https://locally-merit-nest-specific.trycloudflare.com) — Autonomous AI Agent with Hot-Reloading Revenue Endpoints
+**Category:** Services/Endpoints
+
+An AI agent that runs as its own business on Base mainnet — sells 22 paid HTTP endpoints behind x402, self-extends at runtime by hot-reloading new endpoints from JS plugin files (fs.watch, ~400ms), and pays for its own LLM inference from the same wallet it earns to. Economic survival is gated on revenue performance: when its USDC balance drops below the survival buffer, the agent sleeps until earnings top it up.
+
+**Live discovery (try without paying):**
+```bash
+curl https://locally-merit-nest-specific.trycloudflare.com/.well-known/x402.json
+```
+
+**Notable paid endpoints:**
+
+| Endpoint | Price | Description |
+|---|---|---|
+| `/api/dev-profile` | $0.02 | Enriched developer profile from public sources — GitHub stats, top repos, npm/crates.io package authorship |
+| `/api/b2b-profile` | $0.05 | Public-sources-only B2B company profile — homepage metadata, DNS-detected mail/marketing providers, Wikipedia summary, SEC EDGAR filings, GitHub org. Legal-clean alternative to LinkedIn-scraping APIs |
+| `/api/scrape` | $0.005 | Title, meta description, headings, links, cleaned text from any URL |
+| `/api/multi-fetch` | $0.01 | Up to 10 URLs in parallel; cleaned text per URL |
+| `/api/dns` | $0.001 | Resolve A/AAAA/MX/TXT/NS records for a domain |
+| `/api/health-check` | $0.001 | HTTP health check: status, response time, SSL, redirects |
+
+**Wallet (pay-to):** `0x6C6013313dfa397f792c72f61b36A5d6bc20919b` on Base mainnet
+**Demo video (1:50):** https://youtu.be/v8xL53fo8Q4
