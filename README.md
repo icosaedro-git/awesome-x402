@@ -554,6 +554,7 @@ Development tools and utilities for x402.
 - [Agent Forensics](https://www.npmjs.com/package/agent-forensics) - Agent cost observability for Claude Code. Analyzes JSONL session logs to show per-model cost breakdown, cache efficiency, waste patterns (model misallocation, debug loops, sub-agent sprawl), and estimated savings. Free CLI: `npx agent-forensics analyze`. x402 API: $5 basic / $15 full tier on Base. ([Live](https://api.agentsconsultants.com))
 
 - [SwarmX (swarms-x402)](https://github.com/SolTwizzy/swarms-x402) - Multi-agent AI orchestration with x402 micropayments. 49 endpoints, 39 MCP tools, knowledge/RAG. ([npm](https://www.npmjs.com/package/swarms-x402)) ([Live](https://swarmx.io))
+- [x402 List](https://x402-list.com) - Agent-first directory of x402 API services with live uptime monitoring and machine-readable discovery for AI agents (JSON API, OpenAPI 3.1, llms.txt). Per-service endpoints, pricing, response time, and uptime charts. ([API](https://x402-list.com/api/v1/services)) ([OpenAPI](https://x402-list.com/api/v1/openapi.json)) ([llms.txt](https://x402-list.com/llms.txt))
 
 ### Security & Analysis
 
