@@ -409,6 +409,7 @@ Full working examples and templates.
 - [Axios Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) - Automatic payment handling.
 - [Fetch Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) - Fetch API wrapper demo.
 - Python Requests - Python client example.
+- [agent-starter-x402](https://github.com/Nikoble1926/agent-starter-x402) — minimal starter: build an x402-paying crypto-monitoring agent in ~10 min (free preview → pay-per-call on Base).
 
 ## 🎨 Use Cases & Patterns
 
