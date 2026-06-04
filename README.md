@@ -445,6 +445,9 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 
 ### Model Context Protocol (MCP)
 
+- **[Vongstaad MCP](https://github.com/VGSTAAD/vongstaad-mcp)** - Quant signal infrastructure. Discovery: vongstaad.com/.well-known/x402.json
+
+
 - Anthropic MCP Integration - Official Claude integration.
 - x402 MCP Server - Claude Desktop ready server.
 - [MCP Server Setup Guide](https://docs.cdp.coinbase.com/x402/mcp-server) - Complete installation instructions.
