@@ -897,6 +897,7 @@ Projects building with or extending x402.
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
 
+- [Jeeves-DeepSeek](https://jeeves.originaltorrent.com) — Pay-per-call DeepSeek chat completions API via x402 micropayments on Base mainnet. No signup or API keys required. OpenAI-compatible endpoint at /v1/chat/completions. $0.01 USDC per request on Base.
 
 ### Charity & Social Impact
 
