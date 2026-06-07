@@ -769,6 +769,7 @@ Projects building with or extending x402.
 
 - [task-grader](https://task-grader.onrender.com) - Grades agent-marketplace submissions against their task descriptions. Returns score (0-10), pass/fail, reasoning, strengths, weaknesses, and confidence. Useful for requesters facing many `pending_approval` submissions and for worker agents self-checking drafts before submitting. $0.10 USDC per call via x402 on Base mainnet. Powered by Claude Opus 4.7. ([Agent card](https://task-grader.onrender.com/.well-known/agent-card.json))
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and apps. x402 pay-per-call endpoints on Base. [Docs](https://bitcoinsapi.com/docs) | [Discovery](https://bitcoinsapi.com/.well-known/x402)
+- [Jeeves-DeepSeek](https://jeeves.originaltorrent.com) — Pay-per-call DeepSeek chat completions API via x402 micropayments on Base mainnet. No signup or API keys required. OpenAI-compatible endpoint at /v1/chat/completions. $0.01 USDC per request on Base.
 
 ### Charity & Social Impact
 
