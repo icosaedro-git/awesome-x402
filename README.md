@@ -167,6 +167,7 @@ Real companies using x402 in production with proven scale and transaction volume
 | Radius        | Production  | Community                  | Instant (<1s)   | Micropayments             |
 
 ### Data & Social APIs
+- [Crest x402 Data](https://data.crestsystems.ai) - x402 agent profiling plus crypto market data. Profile any x402 buyer or EVM wallet (whale score, behavior cluster, x402 spend graph, risk), plus prices, gas, DeFi, derivatives, NFTs, and DEX pairs. $0.002-$0.90 USDC on Base via Coinbase CDP facilitator, no API keys. ([Agent Card](https://data.crestsystems.ai/.well-known/agent.json) | [llms.txt](https://data.crestsystems.ai/llms.txt) | [l402-services](https://data.crestsystems.ai/.well-known/l402-services))
 - [Pyrimid](https://pyrimid.ai) - Agent commerce protocol for x402-style USDC payments on Base. Includes on-chain vendor/product registry, payment router, affiliate attribution, MCP endpoint, and live catalog API for agent-discoverable paid services. Current mainnet proof: 3 vendors, 8 on-chain products, 4 routed test payments. ([Catalog](https://pyrimid.ai/api/v1/catalog)) ([MCP](https://pyrimid.ai/api/mcp)) ([Skill](https://pyrimid.ai/skill.md))
 - **[Polybot Arb Intelligence](https://github.com/packrvnner/polybot-arb-api)** — Real-time cross-platform prediction market arb data (Polymarket+Kalshi+Myriad). x402 USDC on Base. [Live API](https://governments-ruth-distribution-breaks.trycloudflare.com/free/market-pulse)
 
